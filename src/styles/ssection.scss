@@ -166,7 +166,7 @@
 
                 .col{
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 13px;
                     align-items: center;
                     color: #4C4C4C;
                     padding-left: 0px;
@@ -305,47 +305,57 @@
 
              .last_div{
                 margin-top: 34px;
-                height: 93px;
+                height: 92px;
                 background: #FAFAFA;
 
                 .inner_lastdiv{
                     margin: 14px 10px 0px 10px;
+                    text-align: left;
+                    display: flex;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
 
-                    .form-check{
-                        text-align: left;
-                        padding-top: 15px;
-                        display: table;
-                        position: absolute;
+                    // .form-check{
+                    //     text-align: left;
+                    //     padding-top: 15px;
+                    //     display: table;
+                    //     position: absolute;
 
-                        .form-check-label{
-                            font-weight: 400;
-                            font-size: 11px;
-                            margin-top: 3px;
-                            display: flex;
-                            color: #4C4C4C;
+                    //     .form-check-label{
+                    //         font-weight: 400;
+                    //         font-size: 11px;
+                    //         margin-top: 3px;
+                    //         display: flex;
+                    //         color: #4C4C4C;
+                    //     }
+                    // }
+                    & > input{
+                        margin-right: 5px;
+                    }
+
+                    & > label{
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #4C4C4C;
+
+                        span{
+                            
+                            color: #1882FF;
+                            cursor: pointer;
                         }
                     }
 
-                    & > span{
-                        position: absolute;
-                        font-size: 11px;
-                        margin-top: 18px;
-                        color: #1882FF;
-                        cursor: pointer;
-                    }
-
                 }
-                .last_button{
-                    margin-top: 46px;
-                    display: inline-grid;
-                    padding: 9px 11px;
+                button{
+                    width: 90%;
                     height: 36px;
                     background: #1882FF;
                     border-radius: 3px;
                     font-weight: 500;
-                    font-size: 11px;
+                    font-size: 10px;
                     color: #FFFFFF;
                     cursor: pointer;
+                    border: none;
                 }
             }
         }
@@ -363,7 +373,7 @@
             height: 676px;
             padding-top: 85px;
 
-            & > .fCol{
+            & > .SCol{
                 & > .fourth_row{
                     height: auto;
                 }
@@ -372,3 +382,20 @@
         
     }
 }
+// @media only screen and (min-width: 992){
+//     .second{
+//         & > .second_row{
+//             height: 676px;
+//             padding-top: 85px;
+
+//             & > .fCol{
+//                 .last_div{
+//                     .last_button{
+//                         font-size: 10px;
+//                     }
+//                 }
+//             }
+//         }
+        
+//     }
+// }
