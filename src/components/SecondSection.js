@@ -136,21 +136,12 @@ function SecondSection() {
 
                         <div className='last_div'>
                             <div className='inner_lastdiv'>
-                                {/* <div className='col-md-6' style={{paddingLeft: '0px'}}>
-                                    <Form.Check
-                                        defaultChecked
-                                        type={'checkbox'}
-                                        id={`ac}`}
-                                        label={`I want to avail`}
-                                    />
-                                </div> */}
+                                
                                 <input type="checkbox" defaultChecked name="vehicle2" value="service"/>
                                 <label for="vehicle2"> I want to avail <span>Insurance Service</span></label>
-                                {/* <div className='col-md-6'>Insurance Service</div> */}
+                                
                             </div>
-                            {/* <div className='row last_button'> */}
-                                <button>SELECT & CONTINUE TO RETURN</button>
-                            {/* </div> */}
+                            <button>SELECT & CONTINUE TO RETURN</button>
                         </div>
                     </div>
                     )}
