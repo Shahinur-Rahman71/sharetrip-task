@@ -33,7 +33,7 @@
         }
     }
     & > .second_row{
-        height: 623px;
+        // height: 623px;
         background: #FFFFFF;
         border: 1px solid #F6F6F6;
         box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
@@ -161,7 +161,7 @@
                 justify-content: center;
                 align-items: center;
                 padding: 8px 0px;
-                height: 40px;
+                // height: 40px;
                 background: #FAFAFA;
 
                 .col{
@@ -305,7 +305,8 @@
 
              .last_div{
                 margin-top: 34px;
-                height: 92px;
+                margin-bottom: 12px;
+                // height: 92px;
                 background: #FAFAFA;
 
                 .inner_lastdiv{
