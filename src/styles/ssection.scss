@@ -321,6 +321,7 @@
                     }
 
                     & > label{
+                        font-family: 'SF Pro Display';
                         font-weight: 400;
                         font-size: 10px;
                         color: #4C4C4C;
@@ -334,12 +335,13 @@
 
                 }
                 button{
+                    font-family: 'SF Pro Display';
                     width: 90%;
                     height: 36px;
                     background: #1882FF;
                     border-radius: 3px;
                     font-weight: 500;
-                    font-size: 10px;
+                    font-size: 9px;
                     color: #FFFFFF;
                     cursor: pointer;
                     border: none;
